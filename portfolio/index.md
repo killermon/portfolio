@@ -1,8 +1,8 @@
 # Introduction
 
-Welcome to my portfolio. Here you will find details about some of the projects I have worked on, or are actively working on.
+I am an experience hobbyist game developer with 17 years experience in different conexts. This has involved working within the Unity game engine in C#, within GarrysMod in Lua, as well as a number of other projects not related to gaming I have done through my career at BT. Through my time seveloping software, it has been experienced by over 400,000 people. This has given me a unique view as to how people interact with software, in both expected, and unexpected ways.
 
-All projects and code are written without AI, to ensure maximum learning from these projects.
+Outside of work, my projects are pricipally written both to learn, but also to turn any ideas I have into reality. This is also then tempered by working in a game community, where any implemented software features, need to be of benefit to the community and help with player retention.
 
 ## Current Project - Tempormental
 
