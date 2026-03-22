@@ -14,6 +14,8 @@ A game written in Unity using the ECS (Entity Component System) framework, with 
 * Reactive AI behaviours, allowing them to run to interact with the atmospherics system (E.g. Run from a station wall rupture), as well as other friendly and hostile AI.
 * Power and atmospheric networks, allowing for the transport of gas, and electricity around the station.
 * Complex navigational system, able to handle split stations (Where a space station is split into two distinct parts), as well as AI that exists off-grid.
+* Asteroid generation, using a combination of Voroni and Perlin Noise.
+* AI logistics system, allowing AI to transport items around the station to where they are required.
 
 And many more features...
 
