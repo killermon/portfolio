@@ -6,7 +6,16 @@ All projects and code are written without AI, to ensure maximum learning from th
 
 ## Current Project - Tempormental
 
-A game written in Unity using the ECS (Entity Component System) framework, with a deep and complex simulation. the current game features:
+A game written in Unity using the ECS (Entity Component System) framework, with a deep and complex simulation. I wrote this game to learn as a way of coaogulating my many years of software experience, into a single cohesive package. the current game features:
+
+* Space station building system, including AI that builds the static piece by piece, along with easy to use tools.
+* Complex Atmospherics simulation, simulating pressure and different gax mixtures (Such as O2, Co2...etc)
+* Structural pressure system, where high pressures can cause station walls to rupture.
+* Reactive AI behaviours, allowing them to run to interact with the atmospherics system (E.g. Run from a static rupture), as well as other AI.
+* Power and atmospheric networks, allowing for the transport of gas, and electricity around the station.
+* Complex navigational system, able to handle split stations (Where a space station is split into two distinct parts), as well as Ai that exists off-grid.
+
+And many more features...
 
 And as its a game, you can play it here.
 
