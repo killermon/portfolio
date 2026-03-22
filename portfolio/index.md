@@ -31,6 +31,8 @@ https://play.unity.com/en/games/6a2ce621-87fa-405d-9672-f46760448305/builds
 
 I've been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets.
 
+* Creating a cross-server marketplace, where players could sell items. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.
+
 ## Marvin
 
-Marvin has been a key project in my current job role.
+Marvin has been a key project in my current job role. The engineer goal of this project was to solve the issue of ensuring our Openstacl Cloud was consistantly deployed. Our current automation solution was able to deploy this software, but it often wasn't consistant. This project used custom data modelling to align with our internal platform versioning, and was written in Ansible. Ansible was picked as although it wasn't the most suitable langauge, it allowed other members of my team to pick it up, who didn't have a software engineering background. 
