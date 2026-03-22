@@ -29,7 +29,7 @@ https://play.unity.com/en/games/6a2ce621-87fa-405d-9672-f46760448305/builds
 
 ## [BB] Community
 
-I've been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets.
+I've been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets. The largest challenge with this project has been maintaining the 16.66 Ms tick time, which is the maximum time allowed for code to execute in a single frame - exceeding this would result in the server starting to "Lag", impacting the player experience.
 
 * Creating a cross-server marketplace, where players could sell items. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.
 
