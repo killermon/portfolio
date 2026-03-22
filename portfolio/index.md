@@ -6,7 +6,7 @@ All projects and code are written without AI, to ensure maximum learning from th
 
 ## Current Project - Tempormental
 
-A game written in Unity using the ECS (Entity Component System) framework, with a deep and complex simulation. I wrote this game to learn as a way of coaogulating my many years of software experience, into a single cohesive package. the current game features:
+A game written in Unity using the ECS (Entity Component System) framework, with a deep and complex simulation. I wrote this game to learn as a way of coaogulating my many years of software experience, into a single cohesive package. It required a singificant amount of learning around the Unity game engine, but also the practicalities of multithreading. the current game features:
 
 * Space station building system, including AI that builds the static piece by piece, along with easy to use tools.
 * Complex Atmospherics simulation, simulating pressure and different gax mixtures (Such as O2, Co2...etc)
