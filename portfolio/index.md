@@ -8,7 +8,7 @@ Outside of work, my projects are pricipally written both to learn, but also to t
 
 Tempormental is a systems-driven simulation game built in Unity using C# and the Entity Component System (ECS) framework. The project was designed to consolidate and apply my previous experience into a single, more complex system.
 
-Working with ECS introduced significant challenges due to its evolving API and paradigm shift toward data-oriented design. This required adapting to frequent breaking changes while structuring systems for performance, scalability, and multithreading. I designed systems to remain performant under increasing simulation complexity using Unity’s ECS and Job System.
+Working with ECS introduced significant challenges due to its evolving API and paradigm shift toward data-oriented design. This required adapting to breaking changes while structuring systems for performance, scalability, and multithreading. I designed systems to remain performant under increasing simulation complexity using Unity’s ECS and Job System.
 
 The project focuses on building interconnected simulation systems, including:
 
