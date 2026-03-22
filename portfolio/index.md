@@ -11,9 +11,9 @@ A game written in Unity using the ECS (Entity Component System) framework, with 
 * Space station building system, including AI that builds the static piece by piece, along with easy to use tools.
 * Complex Atmospherics simulation, simulating pressure and different gax mixtures (Such as O2, Co2...etc)
 * Structural pressure system, where high pressures can cause station walls to rupture.
-* Reactive AI behaviours, allowing them to run to interact with the atmospherics system (E.g. Run from a static rupture), as well as other AI.
+* Reactive AI behaviours, allowing them to run to interact with the atmospherics system (E.g. Run from a station wall rupture), as well as other friendly and hostile AI.
 * Power and atmospheric networks, allowing for the transport of gas, and electricity around the station.
-* Complex navigational system, able to handle split stations (Where a space station is split into two distinct parts), as well as Ai that exists off-grid.
+* Complex navigational system, able to handle split stations (Where a space station is split into two distinct parts), as well as AI that exists off-grid.
 
 And many more features...
 
