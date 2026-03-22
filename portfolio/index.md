@@ -6,26 +6,30 @@ Outside of work, my projects are pricipally written both to learn, but also to t
 
 ## Tempormental - C# Unity Game.
 
-Tempormental is a game I worked on, as a way to further extend my current knowledge of C#. I wanted to take all the learnings I have from my other projects, and use them in a project that brings them all together.
+Tempormental is a systems-driven simulation game built in Unity using C# and the Entity Component System (ECS) framework. The project was designed to consolidate and apply my previous experience into a single, more complex system.
 
-This game is written Unity using the ECS (Entity Component System) framework. The ECS framework has been challenging to work in, as its been evolving over the years, resulting in massive API Changes while trying to write the game. However, the system gives a number of tools that make multithreading easy, and forces the use of "Data Orientated Design", which while a learning curve, has been beneficial, due to its similarites to functional programming.
+Working with ECS introduced significant challenges due to its evolving API and paradigm shift toward data-oriented design. This required adapting to frequent breaking changes while structuring systems for performance, scalability, and multithreading. I designed systems to remain performant under increasing simulation complexity using Unity’s ECS and Job System.
 
-Current set of features within the game.
+The project focuses on building interconnected simulation systems, including:
 
-* Space station building system, including AI that builds the static piece by piece, along with easy to use tools.
-* Complex Atmospherics simulation, simulating pressure and different gax mixtures (Such as O2, Co2...etc)
-* Structural pressure system, where high pressures can cause station walls to rupture.
-* Reactive AI behaviours, allowing them to run to interact with the atmospherics system (E.g. Run from a station wall rupture), as well as other friendly and hostile AI.
-* Power and atmospheric networks, allowing for the transport of gas, and electricity around the station.
-* Complex navigational system, able to handle split stations (Where a space station is split into two distinct parts), as well as AI that exists off-grid.
-* Asteroid generation, using a combination of Voroni and Perlin Noise.
-* AI logistics system, allowing AI to transport items around the station to where they are required.
+* Atmospheric simulation — models pressure and gas composition (O₂, CO₂, etc.), with dynamic environmental effects
+* Structural integrity system — pressure differences can cause hull breaches and cascading failures
+* AI behaviour systems — agents react dynamically to environmental changes (e.g. escaping ruptures, interacting with station systems)
+* Logistics & pathfinding — AI can transport resources across complex, potentially disconnected station layouts
+* Power and gas networks — distributed systems for resource transport across the station
+* Procedural generation — asteroid generation using Voronoi and Perlin noise
+* Station construction system — modular building with AI-driven assembly
 
-And many more features...
+This project strengthened my understanding of:
 
-And as its a game, you can play it here.
+* data-oriented design principles
+* multithreaded system architecture
+* managing complex, interdependent systems
+* designing scalable game logic under performance constraints
 
-https://play.unity.com/en/games/6a2ce621-87fa-405d-9672-f46760448305/builds
+👉 Play it [here](
+https://play.unity.com/en/games/6a2ce621-87fa-405d-9672-f46760448305/builds)
+
 
 ## [BB] Community
 
