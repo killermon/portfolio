@@ -1,12 +1,16 @@
 # Introduction
 
-I am an experience hobbyist game developer with 17 years experience in different conexts. This has involved working within the Unity game engine in C#, within GarrysMod in Lua, as well as a number of other projects not related to gaming I have done through my career at BT. Through my time seveloping software, it has been experienced by over 400,000 people. This has given me a unique view as to how people interact with software, in both expected, and unexpected ways.
+I am an experience hobbyist game developer with 17 years experience in different conexts. This has involved working within the Unity game engine in C#, within GarrysMod in Lua, as well as a number of other projects not related to gaming I have done through my career at BT. Through my time seveloping software, it has been experienced by over 400,000 people. This has given me a unique view as to how people interact with software, in both expected, and unexpected ways, including dealing with bad actors.
 
 Outside of work, my projects are pricipally written both to learn, but also to turn any ideas I have into reality. This is also then tempered by working in a game community, where any implemented software features, need to be of benefit to the community and help with player retention. I enjoy using projects as a way of pratically extending my skills, and real world problem solving.
 
-## Current Project - Tempormental
+## Tempormental - C# Unity Game.
 
-A game written in Unity using the ECS (Entity Component System) framework, with a deep and complex simulation. I wrote this game to learn as a way of coaogulating my many years of software experience, into a single cohesive package. It required a singificant amount of learning around the Unity game engine, but also the practicalities of multithreading. the current game features:
+Tempormental is a game I worked on, as a way to further extend my current knowledge of C#. I wanted to take all the learnings I have from my other projects, and use them in a project that brings them all together.
+
+This game is written Unity using the ECS (Entity Component System) framework. The ECS framework has been challenging to work in, as its been evolving over the years, resulting in massive API Changes while trying to write the game. However, the system gives a number of tools that make multithreading easy, and forces the use of "Data Orientated Design", which while a learning curve, has been beneficial, due to its similarites to functional programming.
+
+Current set of features within the game.
 
 * Space station building system, including AI that builds the static piece by piece, along with easy to use tools.
 * Complex Atmospherics simulation, simulating pressure and different gax mixtures (Such as O2, Co2...etc)
