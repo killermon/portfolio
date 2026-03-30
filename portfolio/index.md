@@ -1,8 +1,10 @@
 # Introduction
 
-I am an experience hobbyist game developer with 17 years experience in different conexts. This has involved working within the Unity game engine in C#, within GarrysMod in Lua, as well as a number of other projects not related to gaming I have done through my career at BT. Through my time seveloping software, it has been experienced by over 400,000 people. This has given me a unique view as to how people interact with software, in both expected, and unexpected ways, including dealing with bad actors.
+I am a senior engineer with 17 years’ experience designing and operating large-scale cloud platforms serving tens of millions of users.
 
-Outside of work, my projects are pricipally written both to learn, but also to turn any ideas I have into reality. This is also then tempered by working in a game community, where any implemented software features, need to be of benefit to the community and help with player retention. I enjoy using projects as a way of pratically extending my skills, and real world problem solving.
+I specialise in system reliability, performance optimisation, and debugging complex issues across the full stack—from Linux kernel and dataplane behaviour through to distributed application design.
+
+Alongside my professional work, I build systems-focused projects in C# and Lua, applying the same principles of performance, scalability, and architectural clarity. These projects serve as a sandbox for exploring low-level design, reinforcing my approach to building resilient, high-performance systems in production environments. 
 
 ## Tempormental - C# Unity Game.
 
@@ -16,7 +18,7 @@ The project focuses on building interconnected simulation systems, including:
 * Structural integrity system — pressure differences can cause hull breaches and cascading failures
 * AI behaviour systems — agents react dynamically to environmental changes (e.g. escaping ruptures, interacting with station systems)
 * Logistics & pathfinding — AI can transport resources across complex, potentially disconnected station layouts
-* Power and gas networks — distributed systems for resource transport across the station
+* Power and gas networks system — distributed systems for resource transport across the station
 * Procedural generation — asteroid generation using Voronoi and Perlin noise
 * Station construction system — modular building with AI-driven assembly
 
