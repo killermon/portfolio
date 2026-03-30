@@ -4,7 +4,9 @@ I am a senior engineer with 17 years’ experience designing and operating large
 
 I specialise in system reliability, performance optimisation, and debugging complex issues across the full stack—from Linux kernel and dataplane behaviour through to distributed application design.
 
-Alongside my professional work, I build systems-focused projects in C# and Lua, applying the same principles of performance, scalability, and architectural clarity. These projects serve as a sandbox for exploring low-level design, reinforcing my approach to building resilient, high-performance systems in production environments. 
+Alongside my professional work, I build systems-focused projects in C# and Lua, applying the same principles of performance, scalability, and architectural clarity. These projects serve as a sandbox for exploring low-level design, reinforcing my approach to building resilient, high-performance systems in production environments.
+
+*** This is just a snapshot of the projects I have worked on over the years, to handle all manner of engineering problems. ***
 
 ## Tempormental - C# Unity Game.
 
@@ -48,12 +50,14 @@ My main takeaways from this project have been:
 * Useful abstraction through robust data models, with the appropriate guardrails and validation.
 * How to sell a project to the team, ensuring that we collaborate on it, and involve the team within the project. To avoid them feeling like the project is being "forced" on them.
 
-## [BB] Community
+## [BB] Community - Mulitple multiplayer game servers
 
 I've been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets. The largest challenge with this project has been maintaining the 16.66 Ms tick time, which is the maximum time allowed for code to execute in a single frame - exceeding this would result in the server starting to "Lag", impacting the player experience.
 
 * A cross-server marketplace - players could sell, buy and bid on items in real time. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.
 * Realtime gameplay feedback systems - Players could see their times in races, in real time, allowing players to know where they are compared to all other players across all our servers.
+* Multiplayer cosmetics system - Syncing of equipped cosmetic between players, handling complex data structures to achieve this between the server, and all connected clients. Keeping all clients in sync with one another, as well as optimisations to their rendering pipelines, to handle large amounts of costmetics equipped by players.
+
 
 My main takeaways from this project have been:
 
