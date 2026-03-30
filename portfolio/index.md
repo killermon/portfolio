@@ -31,12 +31,17 @@ This project strengthened my understanding of:
 https://play.unity.com/en/games/6a2ce621-87fa-405d-9672-f46760448305/builds)
 
 
+## Marvin
+
+Marvin has been a key project in my current job role. I was concerned with our current platform deployments, and the consistancy on configuration, and the end result that can have on the customer experience. To this end, Marvin was the solution I engineered to solve this problem.
+
+* Data Moddeling - Creating robust data models to capture the differences between the different versions of our platform, to ensure configuration consistancy.
+*  Ease of development - Making development as easy as possible, with a team of engineers who may be unfamiliar with software engineering. Written in Ansible, to make contributing to it as easy as possible.
+* Documentation - The goal of this tool was to reduce the dependancie on individuals, myself included. Ensuring the tool was documented at length was an important aspect to achieve this.
+
 ## [BB] Community
 
 I've been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets. The largest challenge with this project has been maintaining the 16.66 Ms tick time, which is the maximum time allowed for code to execute in a single frame - exceeding this would result in the server starting to "Lag", impacting the player experience.
 
-* Creating a cross-server marketplace, where players could sell items. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.
-
-## Marvin
-
-Marvin has been a key project in my current job role. The engineer goal of this project was to solve the issue of ensuring our Openstacl Cloud was consistantly deployed. Our current automation solution was able to deploy this software, but it often wasn't consistant. This project used custom data modelling to align with our internal platform versioning, and was written in Ansible. Ansible was picked as although it wasn't the most suitable langauge, it allowed other members of my team to pick it up, who didn't have a software engineering background. 
+* A cross-server marketplace - players could sell, buy and bid on items in real time. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.
+* Realtime feedback systems - Players could see their times in races, in real time, allowing players to know where they are compared to all other players across all our servers.
