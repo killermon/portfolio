@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/portfolio">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828182001582">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828182548360">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
@@ -34,11 +34,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="resources/css/retype.css?v=4.4.0.828182001582" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.4.0.828182548360" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.4.0.828182001582" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.4.0.828182548360" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.4.0.828182001582" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.4.0.828182548360" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -144,12 +144,12 @@
 <li>Procedural generation — asteroid generation using Voronoi and Perlin noise</li>
 <li>Station construction system — modular building with AI-driven assembly</li>
 </ul>
-<p>This project strengthened my understanding of:</p>
+<p>My main takeaways from this project have been:</p>
 <ul>
-<li>data-oriented design principles</li>
-<li>multithreaded system architecture</li>
-<li>managing complex, interdependent systems</li>
-<li>designing scalable game logic under performance constraints</li>
+<li>Data-oriented design principles</li>
+<li>Multithreaded system architecture</li>
+<li>Managing complex, interdependent systems</li>
+<li>Designing scalable game logic under performance constraints</li>
 </ul>
 <p><span class="docs-emoji">&#x1F449;</span> Play it <a href="https://play.unity.com/en/games/6a2ce621-87fa-405d-9672-f46760448305/builds" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
 <h2 id="marvin">Marvin</h2>
@@ -158,12 +158,25 @@
 <li>Data Moddeling - Creating robust data models to capture the differences between the different versions of our platform, to ensure configuration consistancy.</li>
 <li>Ease of development - Making development as easy as possible, with a team of engineers who may be unfamiliar with software engineering. Written in Ansible, to make contributing to it as easy as possible.</li>
 <li>Documentation - The goal of this tool was to reduce the dependancie on individuals, myself included. Ensuring the tool was documented at length was an important aspect to achieve this.</li>
+<li>Structure - Aligning with the ease of development goal, ensuring that the structure of the project, including its modules and how it is laid out, to reduce the learning curve for contributing to the project as much as possible.</li>
+</ul>
+<p>My main takeaways from this project have been:</p>
+<ul>
+<li>The important of addressing approachability to development.</li>
+<li>Useful abstraction through robust data models, with the appropriate guardrails and validation.</li>
+<li>How to sell a project to the team, ensuring that we collaborate on it, and involve the team within the project. To avoid them feeling like the project is being &quot;forced&quot; on them.</li>
 </ul>
 <h2 id="bb-community">[BB] Community</h2>
 <p>I&#x27;ve been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets. The largest challenge with this project has been maintaining the 16.66 Ms tick time, which is the maximum time allowed for code to execute in a single frame - exceeding this would result in the server starting to &quot;Lag&quot;, impacting the player experience.</p>
 <ul>
 <li>A cross-server marketplace - players could sell, buy and bid on items in real time. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.</li>
-<li>Realtime feedback systems - Players could see their times in races, in real time, allowing players to know where they are compared to all other players across all our servers.</li>
+<li>Realtime gameplay feedback systems - Players could see their times in races, in real time, allowing players to know where they are compared to all other players across all our servers.</li>
+</ul>
+<p>My main takeaways from this project have been:</p>
+<ul>
+<li>Players will do things that are undesirable, either maliciously or otherwise.</li>
+<li>Listening to player feedback, and actioning it.</li>
+<li>Player experience, with strict SLA&#x27;s the amount of time we can spend on the CPU within each frame.</li>
 </ul>
 
                 
