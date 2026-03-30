@@ -41,6 +41,7 @@ Marvin has been a key project in my current job role. I was concerned with our c
 * Structure - Aligning with the ease of development goal, ensuring that the structure of the project, including its modules and how it is laid out, to reduce the learning curve for contributing to the project as much as possible.
 
 My main takeaways from this project have been:
+
 * The important of addressing approachability to development.
 * Useful abstraction through robust data models, with the appropriate guardrails and validation.
 * How to sell a project to the team, ensuring that we collaborate on it, and involve the team within the project. To avoid them feeling like the project is being "forced" on them.
@@ -53,6 +54,7 @@ I've been a developer at this community for 15+ years, with a community that has
 * Realtime gameplay feedback systems - Players could see their times in races, in real time, allowing players to know where they are compared to all other players across all our servers.
 
 My main takeaways from this project have been:
+
 * Players will do things that are undesirable, either maliciously or otherwise.
 * Listening to player feedback, and actioning it.
 * Player experience, with strict SLA's the amount of time we can spend on the CPU within each frame.
