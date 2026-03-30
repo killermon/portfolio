@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/portfolio">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828187669610">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828192090191">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
@@ -34,11 +34,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="resources/css/retype.css?v=4.4.0.828187669610" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.4.0.828192090191" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.4.0.828187669610" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.4.0.828192090191" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.4.0.828187669610" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.4.0.828192090191" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -132,6 +132,7 @@
 <p>I am a senior engineer with 17 years’ experience designing and operating large-scale cloud platforms serving tens of millions of users.</p>
 <p>I specialise in system reliability, performance optimisation, and debugging complex issues across the full stack—from Linux kernel and dataplane behaviour through to distributed application design.</p>
 <p>Alongside my professional work, I build systems-focused projects in C# and Lua, applying the same principles of performance, scalability, and architectural clarity. These projects serve as a sandbox for exploring low-level design, reinforcing my approach to building resilient, high-performance systems in production environments.</p>
+<p>*** This is just a snapshot of the projects I have worked on over the years, to handle all manner of engineering problems. ***</p>
 <h2 id="tempormental---c-unity-game">Tempormental - C# Unity Game.</h2>
 <p>Tempormental is a systems-driven simulation game built in Unity using C# and the Entity Component System (ECS) framework. The project was designed to consolidate and apply my previous experience into a single, more complex system.</p>
 <p>Working with ECS introduced significant challenges due to its evolving API and paradigm shift toward data-oriented design. This required adapting to breaking changes while structuring systems for performance, scalability, and multithreading. I designed systems to remain performant under increasing simulation complexity using Unity’s ECS and Job System.</p>
@@ -167,11 +168,12 @@
 <li>Useful abstraction through robust data models, with the appropriate guardrails and validation.</li>
 <li>How to sell a project to the team, ensuring that we collaborate on it, and involve the team within the project. To avoid them feeling like the project is being &quot;forced&quot; on them.</li>
 </ul>
-<h2 id="bb-community">[BB] Community</h2>
+<h2 id="bb-community---mulitple-multiplayer-game-servers">[BB] Community - Mulitple multiplayer game servers</h2>
 <p>I&#x27;ve been a developer at this community for 15+ years, with a community that has served over 400,000 players. Made up of various gamemodes, I have written complex systems that underpin the economy of the game, amongst many other facets. The largest challenge with this project has been maintaining the 16.66 Ms tick time, which is the maximum time allowed for code to execute in a single frame - exceeding this would result in the server starting to &quot;Lag&quot;, impacting the player experience.</p>
 <ul>
 <li>A cross-server marketplace - players could sell, buy and bid on items in real time. Dealing with ephemeral servers, backed by a common shared database, where players could be logged into multiple servers at once.</li>
 <li>Realtime gameplay feedback systems - Players could see their times in races, in real time, allowing players to know where they are compared to all other players across all our servers.</li>
+<li>Multiplayer cosmetics system - Syncing of equipped cosmetic between players, handling complex data structures to achieve this between the server, and all connected clients. Keeping all clients in sync with one another, as well as optimisations to their rendering pipelines, to handle large amounts of costmetics equipped by players.</li>
 </ul>
 <p>My main takeaways from this project have been:</p>
 <ul>
